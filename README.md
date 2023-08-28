@@ -2,14 +2,17 @@
 
     - Crear una imagen de Docker para el backend, los assets de la aplicación se encuentran en ./backend
       - La aplicación esta en node y se ejecuta de la siguiente forma:
-        ```sh
+  
+        ```
         $ node server.js
         ```
     - Crear una imagen de Docker para el frontend, los assets se encuentran en la carpeta ./frontend
       - La Aplicación esta en javascript y se ejecuta de la siguiente forma:
-        ```sh
+  
+        ```
         $ npm start
         ```
+  
     - Desplegar los 3 componentes de la aplicación:
       - Frontend
       - Backend
