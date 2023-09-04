@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web:
-    image: todo-web-app
+    image: yolix/todo-web-app
     environment: 
       REACT_APP_API_URL: http://localhost:3001/api
     depends_on:
@@ -9,7 +9,7 @@ services:
     ports:
       - "3000:3000"
   todo-api:
-    image: todo-api
+    image: yolix/todo-api
     depends_on:
       - mongo
     ports:
